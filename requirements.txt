@@ -4,4 +4,7 @@ sympy
 quadpy
 matplotlib
 pandas
-
+jupyterthemes
+vtk
+vtkplotter
+k3d
