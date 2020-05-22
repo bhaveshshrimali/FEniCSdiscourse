@@ -8,3 +8,4 @@ jupyterthemes
 vtk
 vtkplotter
 k3d
+mayavi
