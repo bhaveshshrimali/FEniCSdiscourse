@@ -9,3 +9,4 @@ vtk
 vtkplotter
 k3d
 mayavi
+pygmsh
