@@ -6,7 +6,6 @@ matplotlib
 pandas
 jupyterthemes
 vtk
-vtkplotter
+vedo
 k3d
-mayavi
 pygmsh
