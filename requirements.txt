@@ -9,3 +9,4 @@ vtk
 vedo
 k3d
 pygmsh
+mshr
