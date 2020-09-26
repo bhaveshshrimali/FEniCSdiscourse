@@ -9,3 +9,5 @@ vtk
 vedo
 k3d
 pygmsh
+dmsh
+--no-binary=h5py h5py
