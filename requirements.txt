@@ -8,6 +8,6 @@ jupyterthemes
 vtk
 vedo
 k3d
-pygmsh
+pygmsh==6.1.1
 dmsh
---no-binary=h5py h5py
+h5py --no-binary=h5py
