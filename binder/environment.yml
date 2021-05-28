@@ -1,10 +1,9 @@
 channels:
   - conda-forge
-  - ngsolve
 dependencies:
   - fenics
   - gmsh
-  - ngsolve
   - pip
+  - mshr
   - pip:
     - -r ../requirements.txt
