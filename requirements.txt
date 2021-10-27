@@ -4,10 +4,6 @@ sympy
 quadpy
 matplotlib
 pandas
-jupyterthemes
-vtk
-vedo
-k3d
 pygmsh==6.1.1
 dmsh
 h5py --no-binary=h5py
