@@ -12,7 +12,6 @@ COPY . ${HOME}
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 RUN pip3 install --no-cache-dir jupyterhub notebook
-RUN sudo apt-get install libgl1-mesa-glx libsm6
 RUN pip3 install --upgrade numpy scipy matplotlib pandas
 USER ${NB_USER}
 ENTRYPOINT []
