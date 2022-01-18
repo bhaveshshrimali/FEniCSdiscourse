@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # environment file for docker
-binder/*.yml
+~/binder/*.yml
