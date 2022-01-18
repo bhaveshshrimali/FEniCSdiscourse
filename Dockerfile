@@ -1,4 +1,4 @@
-FROM quay.io/fenicsproject/dev:513c2ae09da55e1491bbee8c5f37e397c7ff77767b9ef636eaff95f93bac0f95
+FROM quay.io/fenicsproject/dev:latest
 
 # create user with a home directory
 ARG NB_USER
