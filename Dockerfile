@@ -1,4 +1,5 @@
-FROM quay.io/fenicsproject/dev:latest
+FROM dbaroliaices/mgisfenics:latest
+# FROM quay.io/fenicsproject/dev:latest
 
 # create user with a home directory
 ARG NB_USER
@@ -10,7 +11,7 @@ ENV HOME /home/${NB_USER}
 WORKDIR ${HOME}
 COPY . ${HOME}
 RUN pip3 install --no-cache-dir jupyterhub notebook
-RUN pip3 install --upgrade numpy scipy matplotlib pandas
+RUN pip3 install --upgrade numpy scipy matplotlib pandas numba
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
